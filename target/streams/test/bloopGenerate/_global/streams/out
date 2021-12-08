@@ -1,0 +1,4 @@
+[debug] [sudoku-test] Classpath dependencies List()
+[debug] [sudoku-test] Dependencies from configurations List(sudoku)
+[debug] Bloop wrote the configuration of project 'sudoku-test' to 'G:\E5\Scala\project\sudoku\.bloop\sudoku-test.json'
+[success] Generated .bloop\sudoku-test.json

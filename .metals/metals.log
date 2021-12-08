@@ -1,0 +1,952 @@
+[0m2021.12.08 21:12:43 INFO  Started: Metals version 0.10.9 in workspace 'G:\E5\Scala\project\sudoku' for client Visual Studio Code 1.62.3.[0m
+[0m2021.12.08 21:12:43 INFO  time: initialize in 0.31s[0m
+[0m2021.12.08 21:12:43 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.08 21:12:43 WARN  no build target for: G:\E5\Scala\project\sudoku\src\main\scala\Main.scala[0m
+[0m2021.12.08 21:12:45 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.08 21:12:46 INFO  time: code lens generation in 2.5s[0m
+[0m2021.12.08 21:12:46 INFO  time: code lens generation in 2.39s[0m
+[0m2021.12.08 21:12:47 INFO  running 'C:\Program Files\Java\jre1.8.0_311\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\thoma\AppData\Local\Temp\metals8733369185845566747\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.08 21:12:48 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_311)[0m
+[0m2021.12.08 21:12:50 INFO  [info] loading settings for project sudoku-build-build from metals.sbt ...[0m
+[0m2021.12.08 21:12:50 INFO  [info] loading project definition from G:\E5\Scala\project\sudoku\project\project[0m
+[0m2021.12.08 21:12:51 WARN  no build target for: G:\E5\Scala\project\sudoku\src\main\scala\Main.scala[0m
+[0m2021.12.08 21:12:53 INFO  [info] loading settings for project sudoku-build from metals.sbt ...[0m
+[0m2021.12.08 21:12:53 INFO  [info] loading project definition from G:\E5\Scala\project\sudoku\project[0m
+[0m2021.12.08 21:12:54 INFO  [success] Generated .bloop\sudoku-build.json[0m
+[0m2021.12.08 21:12:54 INFO  [success] Total time: 1 s, completed 8 dÃ©c. 2021 21:12:54[0m
+[0m2021.12.08 21:12:54 INFO  [info] loading settings for project sudoku from build.sbt ...[0m
+[0m2021.12.08 21:12:54 INFO  [info] set current project to hello-world (in build file:/G:/E5/Scala/project/sudoku/)[0m
+[0m2021.12.08 21:12:56 INFO  [success] Generated .bloop\sudoku.json[0m
+[0m2021.12.08 21:12:56 INFO  [success] Generated .bloop\sudoku-test.json[0m
+[0m2021.12.08 21:12:56 INFO  [success] Total time: 0 s, completed 8 dÃ©c. 2021 21:12:56[0m
+[0m2021.12.08 21:12:56 INFO  time: ran 'sbt bloopInstall' in 8.38s[0m
+[0m2021.12.08 21:12:56 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37150'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from 'g:\E5\Scala\project\sudoku\.bloop'...
+[0m[32m[D][0m Loading project from 'g:\E5\Scala\project\sudoku\.bloop\sudoku.json'
+[0m[32m[D][0m Loading project from 'g:\E5\Scala\project\sudoku\.bloop\sudoku-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\thoma\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\thoma\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\thoma\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\thoma\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\thoma\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'sudoku-test'
+[0m[32m[D][0m Missing analysis file for project 'sudoku'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37150...
+The server is listening for incoming connections at tcp://127.0.0.1:37150...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.08 21:12:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\thoma\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.08 21:12:56 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25301'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25301...
+The server is listening for incoming connections at tcp://127.0.0.1:25301...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.08 21:12:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\thoma\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.08 21:12:56 INFO  time: Connected to build server in 0.57s[0m
+[0m2021.12.08 21:12:56 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.08 21:12:57 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.12.08 21:12:58 INFO  time: indexed workspace in 1.95s[0m
+[0m2021.12.08 21:12:59 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.08 21:12:59 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:12:59 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:13:00 ERROR IO error while decoding G:\E5\Scala\project\sudoku\src\main\scala\Main.scala with UTF-8: G:\E5\Scala\project\sudoku\src\main\scala\Main.scala (Le fichier spécifié est introuvable)
+Please try specifying another one using the -encoding option[0m
+[0m2021.12.08 21:13:00 WARN  failed to generate semanticdb for G:\E5\Scala\project\sudoku\src\main\scala\Main.scala:
+java.nio.file.NoSuchFileException: G:\E5\Scala\project\sudoku\src\main\scala\Main.scala
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.readAllBytes(Unknown Source)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.inputs.Input$File.chars$lzycompute(Input.scala:52)
+	at scala.meta.inputs.Input$File.chars(Input.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:153)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5320)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:52)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:60)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:67)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:401)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:77)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1515)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1499)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1491)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1626)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:148)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:123)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:252)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:121)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:94)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:141)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[0m
+[0m2021.12.08 21:13:00 INFO  time: compiled sudoku in 1.52s[0m
+[0m2021.12.08 21:13:02 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:13:02 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:13:02 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:14:49 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:14:51 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:14:51 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:14:51 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:14:51 INFO  time: compiled sudoku in 1.06s[0m
+[0m2021.12.08 21:15:06 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:07 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:07 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:07 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:07 INFO  time: compiled sudoku in 1.13s[0m
+[0m2021.12.08 21:15:17 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:17 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:17 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:17 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:17 INFO  time: compiled sudoku in 0.75s[0m
+[0m2021.12.08 21:15:20 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:20 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:20 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:20 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:20 INFO  time: compiled sudoku in 0.69s[0m
+[0m2021.12.08 21:15:23 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:23 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:23 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:23 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:23 INFO  time: compiled sudoku in 0.73s[0m
+[0m2021.12.08 21:15:27 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:27 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:27 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:27 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:27 INFO  time: compiled sudoku in 0.7s[0m
+[0m2021.12.08 21:15:30 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:30 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:30 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:30 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:30 INFO  time: compiled sudoku in 0.67s[0m
+[0m2021.12.08 21:15:33 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:33 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:33 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:33 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:33 INFO  time: compiled sudoku in 0.68s[0m
+[0m2021.12.08 21:15:36 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:36 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:36 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:36 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:36 INFO  time: compiled sudoku in 0.66s[0m
+[0m2021.12.08 21:15:38 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:38 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:38 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:38 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:38 INFO  time: compiled sudoku in 0.66s[0m
+[0m2021.12.08 21:15:43 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:43 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:43 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:43 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:43 INFO  time: compiled sudoku in 0.86s[0m
+[0m2021.12.08 21:15:46 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:46 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:46 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:46 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:46 INFO  time: compiled sudoku in 0.64s[0m
+[0m2021.12.08 21:15:48 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:48 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:48 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:48 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:48 INFO  time: compiled sudoku in 0.63s[0m
+[0m2021.12.08 21:15:51 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:15:51 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:15:51 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:15:51 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:15:51 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 21:16:03 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:03 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:03 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:03 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:03 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 21:16:09 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:09 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:09 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:09 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:09 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 21:16:12 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:12 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:12 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:12 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:12 INFO  time: compiled sudoku in 0.96s[0m
+[0m2021.12.08 21:16:21 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:21 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:21 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:21 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:21 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 21:16:25 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:25 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:25 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:25 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:25 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 21:16:27 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:27 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:27 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:27 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:27 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 21:16:30 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:30 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:30 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:30 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:30 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 21:16:35 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:35 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:35 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:35 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:35 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 21:16:40 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:40 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:40 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:40 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:40 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 21:16:42 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:42 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:42 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:42 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:42 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 21:16:56 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:16:56 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:16:56 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:16:56 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:16:56 INFO  time: compiled sudoku in 0.84s[0m
+[0m2021.12.08 21:27:08 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:27:08 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:27:08 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:27:08 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:27:08 INFO  time: compiled sudoku in 0.91s[0m
+[0m2021.12.08 21:27:11 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:27:11 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:27:11 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:27:11 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:27:11 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 21:27:15 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:27:15 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:27:15 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:27:15 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:27:15 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 21:27:29 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:27:29 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:27:29 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:27:29 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:27:29 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 21:27:31 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:27:31 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:27:31 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:27:31 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:27:31 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 21:27:34 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:27:34 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:27:34 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:27:34 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:27:34 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 21:27:43 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:27:43 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:27:43 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:27:43 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:27:43 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 21:27:47 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:27:47 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:27:47 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:27:47 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:27:47 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 21:27:55 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:27:55 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:27:55 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:27:55 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:27:55 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 21:28:06 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:28:06 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:28:06 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:28:06 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:28:06 INFO  time: compiled sudoku in 0.63s[0m
+[0m2021.12.08 21:28:27 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:28:27 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:28:27 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:28:27 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:28:27 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 21:28:36 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:28:36 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:28:36 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:28:36 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:28:36 INFO  time: compiled sudoku in 0.64s[0m
+[0m2021.12.08 21:28:45 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:28:45 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:28:45 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:28:45 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:28:45 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 21:28:55 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:28:55 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:28:55 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:28:55 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:28:55 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 21:28:58 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:28:58 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:28:58 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:28:58 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:28:58 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 21:29:09 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:29:09 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:29:09 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:29:09 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:29:09 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 21:29:12 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:29:12 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:29:12 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:29:12 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:29:12 INFO  time: compiled sudoku in 0.83s[0m
+[0m2021.12.08 21:29:18 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:29:18 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:29:18 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:29:18 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:29:18 INFO  time: compiled sudoku in 0.7s[0m
+[0m2021.12.08 21:29:24 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:29:24 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:29:24 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:29:24 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:29:24 INFO  time: compiled sudoku in 0.68s[0m
+[0m2021.12.08 21:29:27 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:29:27 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:29:27 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:29:27 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:29:27 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 21:29:30 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:29:30 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:29:30 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:29:30 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:29:30 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 21:34:49 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:34:49 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:34:49 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:34:49 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:34:49 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 21:35:03 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:35:03 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:35:03 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:35:03 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:35:03 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 21:48:11 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:48:11 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:48:11 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:48:11 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:48:11 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 21:50:50 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:50:50 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:50:50 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:50:50 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:50:50 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 21:50:55 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:50:55 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:50:55 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:50:55 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:50:55 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 21:50:59 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:50:59 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:50:59 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:50:59 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:50:59 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 21:51:04 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:51:04 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:51:04 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:51:04 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:51:04 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 21:51:07 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:51:07 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:51:07 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:51:07 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:51:07 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 21:51:10 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 21:51:10 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 21:51:10 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 21:51:10 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 21:51:10 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:02:28 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:02:28 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:02:28 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:02:28 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:02:28 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:02:31 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:02:31 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:02:31 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:02:31 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:02:31 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:02:36 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:02:36 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:02:36 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:02:36 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:02:36 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:02:39 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:02:39 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:02:39 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:02:39 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:02:39 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:02:51 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:02:51 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:02:51 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:02:51 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:02:51 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:02:54 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:02:54 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:02:54 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:02:54 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:02:54 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:02:56 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:02:56 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:02:56 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:02:56 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:02:56 INFO  time: compiled sudoku in 0.64s[0m
+[0m2021.12.08 22:03:09 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:03:09 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:03:09 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:03:09 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:03:09 INFO  time: compiled sudoku in 0.81s[0m
+[0m2021.12.08 22:03:12 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:03:13 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:03:13 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:03:13 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:03:13 INFO  time: compiled sudoku in 1.05s[0m
+[0m2021.12.08 22:03:21 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:03:21 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:03:21 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:03:21 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:03:21 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:03:37 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:03:37 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:03:37 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:03:37 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:03:37 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:03:50 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:03:50 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:03:50 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:03:50 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:03:50 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:03:57 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:03:57 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:03:57 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:03:57 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:03:57 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:04:11 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:04:11 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:04:11 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:04:11 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:04:11 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:04:14 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:04:14 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:04:14 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:04:14 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:04:14 INFO  time: compiled sudoku in 0.93s[0m
+[0m2021.12.08 22:04:23 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:04:23 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:04:23 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:04:23 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:04:23 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:04:31 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:04:31 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:04:31 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:04:31 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:04:31 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:04:43 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:04:43 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:04:43 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:04:43 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:04:43 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:04:48 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:04:48 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:04:48 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:04:48 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:04:48 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:04:50 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:04:50 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:04:50 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:04:50 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:04:50 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:05:05 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:05:05 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:05:05 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:05:05 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:05:05 INFO  time: compiled sudoku in 0.93s[0m
+[0m2021.12.08 22:05:15 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:05:15 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:05:15 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:05:15 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:05:15 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:05:19 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:05:19 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:05:19 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:05:19 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:05:19 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:05:21 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:05:21 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:05:21 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:05:21 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:05:21 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:05:47 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:05:47 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:05:47 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:05:47 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:05:47 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:05:54 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:05:54 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:05:54 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:05:54 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:05:54 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:05:57 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:05:57 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:05:57 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:05:57 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:05:57 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:06:01 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:01 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:01 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:01 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:01 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:06:12 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:12 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:12 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:12 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:12 INFO  time: compiled sudoku in 0.81s[0m
+[0m2021.12.08 22:06:15 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:16 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:16 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:16 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:16 INFO  time: compiled sudoku in 1.04s[0m
+[0m2021.12.08 22:06:21 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:21 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:21 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:21 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:21 INFO  time: compiled sudoku in 0.56s[0m
+[0m2021.12.08 22:06:31 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:31 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:31 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:31 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:31 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:06:43 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:43 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:43 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:43 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:43 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:06:46 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:46 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:46 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:46 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:46 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:06:48 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:48 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:48 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:48 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:48 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:06:53 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:53 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:53 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:53 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:53 INFO  time: compiled sudoku in 0.56s[0m
+[0m2021.12.08 22:06:56 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:06:56 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:06:56 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:06:56 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:06:56 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:07:12 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:07:12 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:07:12 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:07:12 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:07:12 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:07:48 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:07:48 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:07:48 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:07:48 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:07:48 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:08:11 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:08:11 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:08:11 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:08:11 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:08:11 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:08:14 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:08:14 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:08:14 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:08:14 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:08:14 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:08:16 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:08:16 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:08:16 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:08:16 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:08:16 INFO  time: compiled sudoku in 0.95s[0m
+[0m2021.12.08 22:08:36 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:08:36 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:08:36 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:08:36 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:08:36 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:08:54 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:08:54 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:08:54 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:08:54 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:08:54 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:08:56 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:08:56 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:08:56 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:08:56 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:08:56 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:09:02 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:09:02 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:09:02 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:09:02 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:09:02 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:09:11 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:09:11 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:09:11 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:09:11 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:09:11 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:09:13 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:09:13 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:09:13 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:09:13 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:09:13 INFO  time: compiled sudoku in 0.63s[0m
+[0m2021.12.08 22:10:39 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:10:39 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:10:39 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:10:39 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:10:39 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:10:45 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:10:45 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:10:45 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:10:45 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:10:45 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:10:53 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:10:53 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:10:53 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:10:53 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:10:53 INFO  time: compiled sudoku in 0.83s[0m
+[0m2021.12.08 22:12:33 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:12:33 INFO  time: compiled sudoku in 0.11s[0m
+[0m2021.12.08 22:12:37 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:12:37 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.12.08 22:12:37 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:12:37 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:12:37 INFO  time: compiled sudoku in 0.64s[0m
+[0m2021.12.08 22:12:44 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:12:44 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.12.08 22:12:44 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:12:44 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:12:44 INFO  time: compiled sudoku in 0.9s[0m
+[0m2021.12.08 22:12:47 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:12:47 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.12.08 22:12:47 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:12:47 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:12:47 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:13:33 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:13:33 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.12.08 22:13:33 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:13:33 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:13:33 INFO  time: compiled sudoku in 0.56s[0m
+[0m2021.12.08 22:14:25 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:14:25 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:14:25 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:14:25 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:14:25 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:14:30 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:14:30 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:14:30 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:14:30 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:14:30 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:14:35 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:14:35 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:14:35 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:14:35 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:14:35 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:15:12 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:15:12 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:15:12 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:15:12 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:15:12 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:15:15 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:15:15 INFO  time: compiled sudoku in 77ms[0m
+[0m2021.12.08 22:15:18 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:15:18 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:15:18 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:15:18 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:15:18 INFO  time: compiled sudoku in 0.93s[0m
+[0m2021.12.08 22:15:22 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:15:22 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:15:22 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:15:22 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:15:22 INFO  time: compiled sudoku in 0.68s[0m
+[0m2021.12.08 22:15:26 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:15:26 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:15:26 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:15:26 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:15:26 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:15:31 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:15:31 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:15:31 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:15:31 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:15:31 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:15:33 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:15:33 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:15:33 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:15:33 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:15:33 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:15:42 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:15:42 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:15:42 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:15:42 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:15:42 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:15:59 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:15:59 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:15:59 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:15:59 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:15:59 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:16:02 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:16:02 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:16:02 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:16:02 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:16:02 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:16:13 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:16:13 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:16:13 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:16:13 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:16:13 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:16:33 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:16:33 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:16:33 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:16:33 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:16:33 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 22:16:41 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:16:41 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:16:41 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:16:41 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:16:41 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:16:46 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:16:46 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:16:46 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:16:46 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:16:46 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:17:09 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:17:09 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:17:09 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:17:09 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:17:09 INFO  time: compiled sudoku in 0.66s[0m
+[0m2021.12.08 22:17:23 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:17:23 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:17:23 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:17:23 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:17:23 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:19:09 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:19:09 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:19:09 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:19:09 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:19:09 INFO  time: compiled sudoku in 0.87s[0m
+déc. 08, 2021 10:19:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1968
+[0m2021.12.08 22:19:40 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:19:40 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:19:40 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:19:40 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:19:40 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 22:19:58 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:19:58 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:19:58 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:19:58 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:19:58 INFO  time: compiled sudoku in 0.93s[0m
+[0m2021.12.08 22:20:10 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:10 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:20:10 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:20:10 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:20:10 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:20:13 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:13 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:20:13 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:20:16 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:16 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:20:16 INFO  time: compiled sudoku in 0.56s[0m
+[0m2021.12.08 22:20:19 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:19 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:20:19 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:20:19 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:20:19 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:20:27 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:27 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:20:27 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:20:27 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:20:27 INFO  time: compiled sudoku in 0.67s[0m
+[0m2021.12.08 22:20:29 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:29 INFO  time: compiled sudoku in 55ms[0m
+[0m2021.12.08 22:20:31 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:31 INFO  time: compiled sudoku in 53ms[0m
+[0m2021.12.08 22:20:36 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:36 INFO  time: compiled sudoku in 63ms[0m
+[0m2021.12.08 22:20:41 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:41 INFO  time: compiled sudoku in 83ms[0m
+[0m2021.12.08 22:20:44 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:44 INFO  time: compiled sudoku in 72ms[0m
+[0m2021.12.08 22:20:46 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:46 INFO  time: compiled sudoku in 98ms[0m
+[0m2021.12.08 22:20:48 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:48 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:20:48 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:20:48 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:20:48 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:20:53 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:53 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:20:53 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:20:53 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:20:53 INFO  time: compiled sudoku in 0.58s[0m
+[0m2021.12.08 22:20:56 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:20:56 WARN  1 deprecation (since 2.11.0)[0m
+[0m2021.12.08 22:20:56 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:20:56 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:20:56 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:20:56 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:21:01 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:21:01 WARN  1 deprecation (since 2.11.0)[0m
+[0m2021.12.08 22:21:01 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:21:01 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:21:01 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:21:01 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:21:04 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:21:04 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:21:04 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:21:04 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:21:04 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 22:21:37 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:21:37 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:21:37 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:21:37 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:21:37 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:21:40 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:21:40 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:21:40 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:21:40 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:21:40 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:21:50 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:21:50 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.12.08 22:21:50 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.12.08 22:21:50 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.12.08 22:21:50 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:22:33 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:22:33 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:22:33 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:22:37 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:22:37 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:22:37 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:22:40 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:22:40 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:22:40 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:22:45 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:22:45 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:22:45 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:22:48 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:22:48 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:22:48 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:22:51 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:22:51 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:22:51 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:22:54 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:22:54 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:22:54 INFO  time: compiled sudoku in 0.62s[0m
+[0m2021.12.08 22:23:12 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:23:12 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:23:12 INFO  time: compiled sudoku in 0.61s[0m
+[0m2021.12.08 22:23:33 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:23:33 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:23:33 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:23:45 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:23:46 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:23:46 INFO  time: compiled sudoku in 1.18s[0m
+[0m2021.12.08 22:23:48 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:23:48 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:23:48 INFO  time: compiled sudoku in 0.88s[0m
+[0m2021.12.08 22:23:51 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:23:51 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:23:51 INFO  time: compiled sudoku in 0.59s[0m
+[0m2021.12.08 22:23:55 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:23:55 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:23:55 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:23:58 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:23:58 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:23:58 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:24:07 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:24:07 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:24:07 INFO  time: compiled sudoku in 0.57s[0m
+[0m2021.12.08 22:25:31 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:25:31 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:25:31 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:36:30 INFO  compiling sudoku (1 scala source)[0m
+[0m2021.12.08 22:36:30 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.12.08 22:36:30 INFO  time: compiled sudoku in 0.6s[0m
+[0m2021.12.08 22:36:38 INFO  shutting down Metals[0m
+[0m2021.12.08 22:36:38 INFO  Shut down connection with build server.No more data in the server stdin, exiting...[0m
+
+No more data in the server stdin, exiting...
+[0m2021.12.08 22:36:38 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.12.08 22:36:56 INFO  Started: Metals version 0.10.9 in workspace 'G:\E5\Scala\project\sudoku' for client Visual Studio Code 1.62.3.[0m
+[0m2021.12.08 22:36:56 INFO  time: initialize in 0.27s[0m
+[0m2021.12.08 22:36:56 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.08 22:36:56 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44959'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44959...
+The server is listening for incoming connections at tcp://127.0.0.1:44959...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.08 22:36:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\thoma\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.08 22:36:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20653'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20653...
+The server is listening for incoming connections at tcp://127.0.0.1:20653...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.08 22:36:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\thoma\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.08 22:36:57 INFO  time: Connected to build server in 0.71s[0m
+[0m2021.12.08 22:36:57 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.08 22:36:58 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.12.08 22:36:58 INFO  time: indexed workspace in 1.2s[0m
+[0m2021.12.08 22:37:00 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.08 22:37:12 INFO  shutting down Metals[0m
+[0m2021.12.08 22:37:12 INFO  Shut down connection with build server.[0m
+[0m2021.12.08 22:37:12 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
