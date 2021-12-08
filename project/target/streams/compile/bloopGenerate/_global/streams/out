@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[sudoku-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[sudoku-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'sudoku-build' to 'G:\E5\Scala\project\sudoku\project\.bloop\sudoku-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\sudoku-build.json[0m
+[debug] [sudoku-build] Classpath dependencies List()
+[debug] [sudoku-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'sudoku-build' to 'G:\E5\Scala\project\sudoku\project\.bloop\sudoku-build.json'
+[success] Generated .bloop\sudoku-build.json
